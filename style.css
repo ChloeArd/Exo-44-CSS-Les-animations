@@ -27,11 +27,13 @@ body {
 
     from {
         background-color: #E91D1D;
+        color: #F5BAF1;
         font-size: 1.5rem;
     }
 
     to {
         background-color: #4EC845;
+        color: #9EEBE4;
         font-size: 6rem;
         height: 600px;
         width: 600px;
