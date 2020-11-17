@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-size: 2.5rem;
+}
+
+.cube {
+    height: 300px;
+    width: 300px;
+    border: 3px dashed grey;
+    animation-name: couleurs;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes couleurs {
+
+    from {
+        background-color: #E91D1D;
+        font-size: 1.5rem;
+    }
+
+    to {
+        background-color: #4EC845;
+        font-size: 6rem;
+        height: 600px;
+        width: 600px;
+        transform: scale(1, 1);
+        transform: rotate(45deg);
+    }
+}
+
+.bouge {
+    height: 100px;
+    width: 100px;
+    background-color: #7A5FE6;
+    animation-name: balade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes balade {
+
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        height: 200px;
+        width: 200px;
+        transform: translateX(1350px);
+    }
+}
